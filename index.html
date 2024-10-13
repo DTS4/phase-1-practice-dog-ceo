@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="utf-8">
-    <title>Intro to AJAX Practice Tasks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog CEO</title>
     <script src="src/index.js" charset="utf-8"></script>
-  </head>
-  <body>
+</head>
+<body>
     <h1>Dog CEO</h1>
 
     <div id="dog-image-container">
-      <!-- images here -->
+        <!-- Random dog images will be displayed here -->
+        <div id="image-container"></div>
     </div>
 
     <hr>
-    <label for="select-breed">Filter Breeds That Start with:</label>
+    <label for="breed-dropdown">Filter Breeds That Start with:</label>
     <select id="breed-dropdown" name="select-breed">
-      <option value="a">a</option>
-      <option value="b">b</option>
-      <option value="c">c</option>
-      <option value="d">d</option>
+        <option value="">Select a letter</option>
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+        <option value="d">D</option>
     </select>
 
-    <ul id="dog-breeds">
+    <ul id="dog-breeds"></ul>  
 
-    </ul>
-
-  </body>
+</body>
 </html>
